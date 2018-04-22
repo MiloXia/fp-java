@@ -2,7 +2,7 @@
 
 It just provided some monads, and pattern matching like Scala. Now, it just is a baby, if I have time, I will finish it.
 
-###Pattern Matching
+### Pattern Matching
 You can use it just like Scala:
 ```
 //factorial
@@ -44,7 +44,7 @@ let(Pair.of(Optional.of(1), Try.delay(() -> "a"))).match(
 ).forEach(x -> System.out.println(x));
 ```
 
-###A Classic FP Demo
+### A Classic FP Demo
 ```
 import javaz.pm.CaseClass;
 import javaz.pm.Pattern;
