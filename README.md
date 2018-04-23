@@ -4,7 +4,7 @@ It just provided some monads, and pattern matching like Scala. Now, it just is a
 
 ### Pattern Matching
 You can use it just like Scala:
-```
+```java
 //factorial
 public static int fact(int n) {
     return let(n).match(
@@ -45,7 +45,7 @@ let(Pair.of(Optional.of(1), Try.delay(() -> "a"))).match(
 ```
 
 ### A Classic FP Demo
-```
+```java
 import javaz.pm.CaseClass;
 import javaz.pm.Pattern;
 import javaz.pm.Product1;
